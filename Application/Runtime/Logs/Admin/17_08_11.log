@@ -1,0 +1,33 @@
+[ 2017-08-11T00:14:28+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+
+[ 2017-08-11T00:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/base.css
+ERR: 非法操作:css
+
+[ 2017-08-11T00:14:33+08:00 ] 127.0.0.1 /index.php/Admin/Dept/css/info-reg.css
+ERR: 非法操作:css
+
+[ 2017-08-11T00:14:33+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-08-11T00:14:33+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2017-08-11T00:14:33+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/common.js
+ERR: 非法操作:js
+
+[ 2017-08-11T00:14:33+08:00 ] 127.0.0.1 /index.php/Admin/Dept/js/WdatePicker.js
+ERR: 非法操作:js
+
+[ 2017-08-11T00:32:28+08:00 ] 127.0.0.1 /index.php/Admin/Dept/addOk
+ERR: 非法操作:addOk
+
+[ 2017-08-11T00:55:57+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+
+[ 2017-08-11T20:18:25+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+
+[ 2017-08-11T20:22:21+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 非法操作:showList
+

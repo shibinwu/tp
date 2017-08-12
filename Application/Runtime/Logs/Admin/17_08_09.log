@@ -1,0 +1,12 @@
+[ 2017-08-09T23:58:48+08:00 ] 127.0.0.1 /index.php/Admin/Test/test7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+ERR: 1146:Table 'db_oa.oa_dept' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_dept`
+ERR: 1146:Table 'db_oa.oa_dept' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_dept`
+

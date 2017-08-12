@@ -45,5 +45,31 @@ class TestController extends Controller{
 		$this -> display();
 	}
 
+	#普通实例化方式
+	public function test7(){
+		// $model = new \Admin\Model\DeptModel();
+		$model = M(Dept);
+		dump($model);
+		// $model -> diy();
+	}
+
+	#增加操作
+	public function test8(){
+		#实例化模型
+		$model = M('Dept');
+		#定义数组
+		$data = array(
+				'name' => '财务部',
+				'pid'  => '0',
+				'sort' => '2',
+				'remark'=> '财务部门'
+
+			);
+		#增加操作
+		$rst = $model -> add($data);
+		dump($rst);
+
+	}
+
 
 }
