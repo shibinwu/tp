@@ -12,4 +12,7 @@ return array(
 
     //跟踪信息
     'SHOW_PAGE_TRACE'       =>   true,
+
+    //动态加载
+    'LOAD_EXT_FILE'         =>   'test',
 );

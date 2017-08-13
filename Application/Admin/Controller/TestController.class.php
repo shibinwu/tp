@@ -71,5 +71,17 @@ class TestController extends Controller{
 
 	}
 
+	#特殊表的实例化
+	public function test9(){
+		$model = D('Stu');
+		dump($model);
+	}
+
+	public function test10(){
+		$model = M('Dept');
+		$data = $model -> fetchSql(true)-> where('id > 2') -> limit(2) -> select();
+		dump($data);
+	}
+
 
 }

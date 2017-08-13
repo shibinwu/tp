@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="/Public/Admin/css/base.css" />
 <link rel="stylesheet" type="text/css" href="/Public/Admin/css/jquery.dialog.css" />
 <link rel="stylesheet" href="/Public/Admin/css/index.css" />
-<title>移动办公自动化系统</title>
+<title>博创联动办公自动化系统</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
       <div class="top-light"></div>
       <h1 class="logo"></h1>
       <div class="login-info ue-clear">
-        <div class="welcome ue-clear"><span>欢迎您,</span><a href="javascript:;" class="user-name">Admin</a></div>
+        <div class="welcome ue-clear"><span>欢迎您,</span><a href="javascript:;" class="user-name"><?php echo (session('uname')); ?></a></div>
         <div class="login-msg ue-clear"> <a href="javascript:;" class="msg-txt">消息</a> <a href="javascript:;" class="msg-num">10</a> </div>
       </div>
       <div class="toolbar ue-clear"> <a href="javascript:;" class="home-btn">首页</a> <a href="javascript:;" class="quit-btn exit"></a> </div>

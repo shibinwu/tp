@@ -7,6 +7,7 @@
 	<title>移动办公自动化系统</title>
 </head>
 <body>
+<form action="{:U('check')}" method="post">
 	<div id="container">
 		<div id="bd">
 			<div class="login1">
@@ -14,20 +15,20 @@
                 <div class="login-input">
                 	<p class="user ue-clear">
                     	<label>用户名</label>
-                        <input type="text" />
+                        <input type="text" name="username"/>
                     </p>
                     <p class="password ue-clear">
                     	<label>密&nbsp;&nbsp;&nbsp;码</label>
-                        <input type="text" />
+                        <input type="password" name="password"/>
                     </p>
                     <p class="yzm ue-clear">
                     	<label>验证码</label>
-                        <input type="text" />
-                        <cite>X394D</cite>
+                        <input type="text" name="captcha" maxlength="4"/>
+                        <cite><img src="__CONTROLLER__/captcha" onclick="this.src='__CONTROLLER__/captcha/t/'+Math.random();"></cite>
                     </p>
                 </div>
                 <div class="login-btn ue-clear">
-                	<a href="index.html" class="btn">登录</a>
+                	<a href="javascript:;" class="btn">登录</a>
                     <div class="remember ue-clear">
                     	<input type="checkbox" id="remember" />
                         <em></em>
@@ -38,6 +39,7 @@
 		</div>
 	</div>
     <div id="ft">CopyRight&nbsp;2014&nbsp;&nbsp;版权所有&nbsp;&nbsp;uimaker.com专注于ui设计&nbsp;&nbsp;苏ICP备09003079号</div>
+    </form>
 </body>
 <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
 <script type="text/javascript" src="__PUBLIC__/Admin/js/common.js"></script>
@@ -70,5 +72,13 @@ function checkRemember($this){
 		}
 	}
 }
+//jquery代码实现表单的提交
+$(function(){
+    //给登录按钮绑定点击事件
+    $('.btn').on('click',function(){
+        //事件的处理程序
+        $('form').submit();
+    })
+})
 </script>
 </html>

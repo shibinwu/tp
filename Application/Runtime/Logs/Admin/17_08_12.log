@@ -1,0 +1,45 @@
+[ 2017-08-12T19:17:45+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T19:24:26+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T19:24:30+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T19:25:22+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T19:25:24+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T19:26:01+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T19:26:04+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T19:26:16+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T19:28:53+08:00 ] 127.0.0.1 /index.php/Admin/test/test9
+ERR: 1146:Table 'db_oa.tp_stu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_stu`
+
+[ 2017-08-12T23:06:50+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha
+ERR: 非法操作:captcha
+
+[ 2017-08-12T23:07:15+08:00 ] 127.0.0.1 /index.php/Admin/Public/captcha
+ERR: 非法操作:captcha
+
+[ 2017-08-12T23:36:19+08:00 ] 127.0.0.1 /index.php/Admin/Public/check.html
+ERR: 非法操作:check
+
