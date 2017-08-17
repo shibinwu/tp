@@ -7,6 +7,7 @@ use Think\Controller;
 class DeptController extends Controller{
 	#Add方法展示添加页面的模板
 	public function add(){
+		//展示模板
 		$this -> display();
 	}
 

@@ -1,0 +1,15 @@
+[ 2017-08-17T09:30:10+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 非法操作:showList
+
+[ 2017-08-17T09:30:21+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 非法操作:showList
+
+[ 2017-08-17T10:03:50+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 非法操作:showList
+
+[ 2017-08-17T10:35:00+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 非法操作:showList
+
+[ 2017-08-17T10:42:51+08:00 ] 127.0.0.1 /index.php/Admin/User/showList.html
+ERR: 模板不存在:./Application/Admin/View/User/showList.html
+
